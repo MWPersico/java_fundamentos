@@ -1,0 +1,109 @@
+Lista de Exercícios 4 – Estrutura de repetição
+1. Crie um algoritmo com a função de exibir todos os números que são divisíveis por 3
+entre 50 e 9500.
+
+2. Crie um algoritmo que exiba os valores de 1 a 250 e em cada múltiplo de 10 exiba a
+mensagem: “Múltiplo de 10”.
+
+3. Crie um algoritmo que apresente a soma dos termos da sequência (1 + 2 + 3 + 4 +
+5 + 6... + 99 + 100).
+
+4. Complemente o algoritmo criado no exercício 3, solicitando ao usuário até qual
+termo deverá ser exibida a soma.
+
+5. Crie um algoritmo que tenha a função de efetuar a soma dos 15 primeiros termos da
+sequência. (5,10,15,20...).
+
+6. Complemente o algoritmo do exercício 6, solicitando o primeiro e o último termo da
+sequência desejada.
+
+7. Um funcionário de uma empresa recebe aumento salarial anualmente. Sabe-se que:
+• Esse funcionário foi contratado em 2010, com salário inicial de R$ 1.000,00;
+• Em 2011, ele recebeu aumento de 1,5% sobre seu salário inicial;
+• A partir de 2012 (inclusive), os aumentos salariais sempre corresponderam ao
+dobro do percentual do ano anterior.
+Crie um algoritmo que determine o salário atual desse funcionário.
+
+8. Crie um algoritmo que receba o salário de um funcionário chamado Carlos. Sabe-se
+que outro funcionário, João, tem salário equivalente a 1/3 do salário de Carlos.
+Carlos aplicará seu salário integralmente em uma aplicação que está rendendo 2%
+ao mês e João aplicará seu salário integralmente em um fundo de renda fixa
+rendendo 5% ao mês. O algoritmo deverá calcular e mostrar a quantidade de meses
+necessários para que o valor pertencente a João iguale ou ultrapasse o valor
+pertencente a Carlos.
+
+9. Crie um algoritmo que leia valores inteiros diferentes de 0 e exiba as informações
+abaixo ao ser informado o número 0.
+a) A soma dos números positivos;
+b) A quantidade de números negativos.
+
+10. Escreva um algoritmo que receba a nota de um aluno entre 0 e 10 e informe se ele
+está aprovado (maior ou igual a 6), de recuperação (maior ou igual a 5 e menor que 6) ou reprovado (abaixo de 5). Caso o valor informado não esteja entre 0 e 10, o
+algoritmo deverá solicitar novamente o valor até que esteja no intervalo desejado.
+
+11. Crie um algoritmo que apresente o menu de opções a seguir, permita ao usuário
+escolher a opção desejada, receba os dados necessários para executar a operação
+e mostre o resultado. Verifique a possibilidade de opção inválida e não se preocupe
+com restrições do tipo salário inválido.
+----- Menu de opções -----
+1. Imposto
+2. Novo salário
+3. Classificação
+4. Finalizar o programa
+Digite a opção desejada.
+-----------------------------------
+Na opção 1, receber o salário de um funcionário, calcular e mostrar o valor do
+imposto usando as regras a seguir:
+Salários % do imposto
+Menor ou igual a R$ 1500,00 5
+De R$ 1500,01 a R$ 3000,00 10
+Acima de R$ 3000,00 15
+Na opção 2, receber o salário de um funcionário, calcular e mostrar o valor do novo
+salário usando as regras a seguir:
+Salários Aumento
+Maiores que R$ 4.500,00 R$ 250,00
+De R$ 3.000,01 a R$ 4.500,00 R$ 200,00
+De R$ 2.000,01 a R$ 3.000,00 R$ 150,00
+Menores que R$ 2.000,01 R$ 130,00
+Na opção 3, receber o salário de um funcionário e mostrar sua classificação usando
+esta tabela:
+Salários Classificação
+Maiores que R$ 3.000,00 Bem remunerado
+Até R$ 3.000,00 Mal remunerado
+
+12. Crie um algoritmo que receba um valor de referência, uma lista contendo a
+quantidade de kw gasta por consumidor e o tipo de consumidor (1 – residencial (5%
+de acréscimo), 2 – comercial (10% de acréscimo) ou 3 – industrial (15% de
+acréscimo)), calcule e mostre:
+• O valor de cada kw, sabendo que o kw custa 1/10 do valor de referência;
+• O valor a ser pago por cada consumidor (conta final mais acréscimos);
+• O faturamento geral da empresa;
+• A quantidade de consumidores que pagam entre R$ 500,00 e R$ 1.000,00
+Termine a entrada de dados com quantidade de kw igual a zero.
+
+13. Crie um algoritmo que leia o número de termos, determine e mostre os valores de
+acordo com a série a seguir:
+Série = 2, 7, 3, 4, 21, 12, 8, 63, 48, 16, 189, 192, 32, 567...
+
+14. Crie um algoritmo que mostre as tabuadas dos números de 1 a 10.
+
+15. Em um campeonato de futebol existem cinco times e cada um possui quinze
+jogadores. Faça um algoritmo que receba a idade, o peso e a altura de cada um dos
+jogadores, calcule e mostre:
+• A quantidade de jogadores com idade inferior a 18 anos;
+• A média das idades dos jogadores de cada time;
+• A média das alturas de todos os jogadores do campeonato;
+• O percentual de jogadores com mais de 80 Kg entre todos os jogadores do
+campeonato.
+
+16. Elaborar um algoritmo que efetue a leitura de valores positivos inteiros até que um
+valor negativo seja informado. Ao final devem ser apresentados o maior e o menor
+valor informados pelo usuário.
+
+17. Elabore um algoritmo que leia 15 valores informados via teclado, e apresente na
+tela:
+a) O menor número digitado
+b) O maior número digitado
+c) A média dos números digitados
+d) Quantidade de números pares
+e) Quantidade de números divisíveis por 5
