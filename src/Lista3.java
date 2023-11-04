@@ -5,16 +5,15 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-public class Lista4 {
+public class Lista3 {
     private Scanner sc = new Scanner(System.in);
     public static void main(String[] args) throws Exception{
-        Lista4 lista = new Lista4();
+        Lista3 lista = new Lista3();
         lista.clear();
         System.out.print("Bem vindo a lista 4 de exercícios Java! Laços de repetição.");
         lista.menu();
         lista.sc.close();
     }
-
 
     //Exercicios:
     public void Exercicio1(){
