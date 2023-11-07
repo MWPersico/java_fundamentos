@@ -285,6 +285,38 @@ public class Lista3 {
         //Deselegante? Talvez, mas funciona...
     }
 
+    public void Exercicio20(){
+        String sequence = "2, 7, 3";
+        int contador, limite, primeiro, segundo, terceiro;
+        limite = contador = 0;
+        primeiro = 2;
+        segundo = 7;
+        terceiro = 3;
+        System.out.print("Quantos valores da sequência você gostaria de exibir? ");
+        limite = sc.nextInt()-3;
+        while(true){
+            if(contador==limite)break;
+            else{
+                primeiro*=2;
+                sequence+=", "+primeiro;
+                contador++;
+            }
+            if(contador==limite)break;
+            else{
+                segundo*=3;
+                sequence+=", "+segundo;
+                contador++;
+            }
+            if(contador==limite)break;
+            else{
+                terceiro*=4;
+                sequence+=", "+terceiro;
+                contador++;
+            }
+        }
+        System.out.println(sequence);
+    }
+
     public void Exercicio14(){
         for (int i=1;i<=10;i++) {
             System.out.println("\r\nTabuada do "+i+":");
